@@ -24,26 +24,48 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2>Please Fill out form to Register!</h2>
-        <label for="fname"><b>Full name</b></label>
-        <input type="text" placeholder="Enter Full Name" name="fname" required>
+    <section>
+        <div class="container_background_register">
+            <div class="container_register">
+                <form id="register">
+                    <h2>¡Por favor complete el formulario para registrarse!</h2>
+                    <label for="fname">Nombre Completo: </label>
+                    <input class="user" type="text" name="fname" required>
 
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="uname"></label>Usuario:</label>
+                    <input class="username" type="text" name="uname" required>
 
-        <label for="email"><b>Email</b></label>
-        <input type="email" placeholder="Enter Email" name="email" required>
+                    <label for="email">Emai:</label>
+                    <input class="email" type="email" name="email" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label for="psw">Contraseña:</label>
+                    <input class="password" type="password" name="psw" required>
 
-        <label for="cpsw"><b>Confirm Password</b></label>
-        <input type="password" placeholder="Confirm Password" name="cpsw" required>
+                    <label for="cpsw">Confirma la Contraseña: </label>
+                    <input class="confirm_password" type="password" name="cpsw" required>
 
-        <input type="submit" value="Register">
-        <p>Yes i have an account? <a href="../../index.html">Login</a></p>
-    </div>
+                    <input class="button_register" type="submit" value="Register">
+
+                    <p>¿Sí tengo una cuenta? <a href="../../index.html">Iniciar Sesión </a></p>
+
+                    <a href="">
+                        <i class="bi bi-google"></i>
+                    </a>
+
+                    <div>
+                        <img class="image_pc" src="./images/pc.svg" alt="login">
+                    </div>
+
+                    <div class="rect_container">
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+    </section>
+
 </body>
 
 </html>

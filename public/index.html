@@ -28,36 +28,66 @@
     <!------------------>
     <!--Login | Login-->
     <section>
-        <div class="container_div">
+
+        <div class="container_background_login">
+
             <div class="container_login">
+
                 <form id="login">
                     <h2>¡Bienvenido de Nuevo!</h2>
                     <label for="username">Usuario:</label>
                     <input class="username" type="text" name="username" required>
-    
+
                     <label for="password">Contraseña:</label>
                     <input class="password" type="password" name="password" required>
-    
+
                     <input class="button_login" type="submit" value="Login">
-    
+
                     <p>¿No tienes una cuenta? <a href="./pages/register/register.html">Registrate</a></p>
-                    
+
                     <a href="">
                         <i class="bi bi-google"></i>
                     </a>
                 </form>
-            </div>
-    
-            <div>
-                <img class="laptop" src="./images/laptop.svg" alt="login">
+
             </div>
 
-            <div class="rect-container">
-                <!-- Rectángulo pegado a la derecha -->
+            <div>
+                <img class="image_laptop" src="./images/laptop.svg" alt="login">
+            </div>
+
+            <div class="rect_container">
             </div>
         </div>
     </section>
     <!------------------>
+
+
+    <!---------------------------->
+    <!--Pie de Pagina | Footer-->
+    <footer id="contacto" class="d-flex flex-column align-items-center justify-content-center">
+        <img class="footer_icon" src="./images/logo_willy.png" alt="Logo de la Pagina">
+        <p class="footer_text_f text-center">Tu versión de mañana debería poder vencer a tú versión de hoy</p>
+        <p class="footer_text text-center">Contactame</p>
+        <div class="social_media_icons d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/SiegBoss" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://www.instagram.com/siegboss_xp/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://github.com/SiegBoss" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.tiktok.com/@siegboss" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-tiktok"></i>
+            </a>
+        </div>
+        <div class="Copyright">
+            creado por SiegBoss &#169; 2024
+        </div>
+    </footer>
+    <!---------------------------->
 
     <!--Enlazar html con JS | Link html with JS-->
     <script src="./script/index.js"></script>
