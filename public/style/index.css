@@ -1,0 +1,102 @@
+/*Estilos Generales*/ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EBEFFF;
+}
+
+/*------------------------------------*/
+/*Estilos del Login*/
+
+.container_div{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container_login {
+    width: 500px;
+    padding: 20px;
+    margin: 5% auto;
+    border-radius: 15px;
+    background-color: #EBEFFF;
+}
+
+.container_login {
+    width: 35%;
+}
+
+.rect-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100vh; /* 100% de la altura de la ventana */
+    background-color: #9370DB; /* Puedes cambiar esto a tu color deseado */
+    z-index: -1; /* Coloca el rectángulo detrás de los otros elementos */
+}
+
+.image-container {
+    position: relative;
+    width: 40%; /* Ajusta el ancho según tus necesidades */
+}
+
+
+.laptop {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.container_login h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;   
+    margin-bottom: 20px;
+}
+
+.container_login label {
+    display: block;
+    margin-bottom: 5px; /* Puedes ajustar el espacio entre el label y el input según tus preferencias */
+}
+
+.username, .password {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-color: #9370DB;
+    border-radius: 50px;
+    background-color: #EBEFFF;
+}
+
+
+.button_login{
+    border-radius: 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    opacity: 0.9;
+    color: white;
+    background-color: #9370DB;
+}
+
+.button_google{
+    background-color: #4285F4;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
