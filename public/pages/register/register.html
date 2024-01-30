@@ -8,7 +8,7 @@
     <meta name="description" content="Portafolio de SiegBoss" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--Titulo | Title-->
-    <title>Login</title>
+    <title>Registrarse</title>
     <!--Icono | Icon-->
     <link rel="icon" type="image/x-icon" href="./images/logo_willy.png" />
     <!-- Enlazar a Bootstrap | Link to Bootstrap -->
@@ -34,18 +34,24 @@
             <div class="rectangle_container">
             </div>
             <div class="container_register mx-auto p-4">
-                <form id="register">
+                <form id="register_form">
                     <h2>¡Por favor complete el formulario para registrarse!</h2>
-                    <label for="fname">Nombre Completo: </label>
-                    <input class="user" type="text" name="fname" required>
-                    <label for="uname">Usuario:</label>
-                    <input class="username" type="text" name="uname" required>
-                    <label for="email">Emai:</label>
-                    <input class="email" type="email" name="email" required>
-                    <label for="psw">Contraseña:</label>
-                    <input class="password" type="password" name="psw" required>
-                    <label for="cpsw">Confirma la Contraseña: </label>
-                    <input class="confirm_password" type="password" name="cpsw" required>
+
+                    <label>Nombre Completo: </label>
+                    <input id="user" type="text" name="user" required>
+
+                    <label>Usuario:</label>
+                    <input id="username" type="text" name="username" required>
+
+                    <label>Emai:</label>
+                    <input id="email" type="email" name="email" required>
+
+                    <label>Contraseña:</label>
+                    <input id="password" type="password" name="password" required>
+
+                    <label>Confirma la Contraseña: </label>
+                    <input id="confirm_password" type="password" name="confirm_password" required>
+
                     <input class="button_register" type="submit" value="Register">
                     <p>¿Sí tengo una cuenta? <a href="../../index.html">Iniciar Sesión </a></p>
                     <div class="container_icon">
@@ -90,6 +96,11 @@
         </div>
     </footer>
     <!---------------------------->
+
+    <!--Enlazar html con JS | Link html with JS-->
+    <script src="./script/register.js"></script>
+    <!--Enlazar a Bootstrap | Link to Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 
